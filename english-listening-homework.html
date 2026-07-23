@@ -28,7 +28,7 @@
     <section class="card" id="setupView">
       <h1>엄마 설정</h1><p class="sub">이번 주 영어 듣기 숙제를 정해주세요.</p>
       <div class="notice">오디오 파일은 이 기기에만 임시로 연결됩니다. 브라우저를 새로고침하면 보안상 오디오 파일을 다시 선택해야 할 수 있어요.</div>
-      <label for="audioFile">듣기 오디오 파일</label><input id="audioFile" type="file" accept="audio/*">
+      <label for="audioFile">듣기 오디오 파일</label><input id="audioFile" type="file" accept=".mp3,audio/mpeg,audio/mp3,audio/*">
       <label for="audioPathNote">MP3 파일 위치 메모</label><input id="audioPathNote" placeholder="예: iCloud Drive/영어 듣기/Week 1.mp3">
       <p class="hint">백업 파일에는 선택한 MP3의 파일명과 이 위치 메모가 저장됩니다.</p>
       <h2>평일 듣기 구간과 목표</h2><p class="hint">구간 예시: 10:11-10:20 또는 10:11–10:20</p>
@@ -43,7 +43,7 @@
       <div class="sky-hero"><div><h1 id="childTitle">나의 영어 듣기</h1><p class="sub" id="childIntro">하루에 정한 구간을 목표만큼 들어보아요!</p></div></div>
       <div class="progress-box"><div class="progress-label"><span id="progressLabel">전체 진행률</span><span id="progressText">0 / 8 완료</span></div><div class="bar"><i id="progressBar"></i></div></div>
       <div class="notice" id="childNotice">오디오가 연결되지 않았어요. 새로고침 후에는 아래에서 오디오 파일을 다시 선택해 주세요.</div>
-      <label class="audio-picker" id="childAudioPicker">오디오 다시 선택<input id="childAudioFile" class="hidden" type="file" accept="audio/*" aria-label="오디오 파일 다시 선택"></label>
+      <label class="audio-picker" id="childAudioPicker">오디오 다시 선택<input id="childAudioFile" class="hidden" type="file" accept=".mp3,audio/mpeg,audio/mp3,audio/*" aria-label="오디오 파일 다시 선택"></label>
       <p class="audio-status" id="audioStatus">오디오 파일을 선택해 주세요.</p>
       <p class="audio-backup-info" id="audioBackupInfo"></p>
       <div class="learning-list" id="learningList"></div>
