@@ -1,0 +1,22 @@
+{
+  "name": "픽쳐북 아지트 학습표",
+  "short_name": "픽쳐북 아지트",
+  "start_url": "./english-listening-homework.html",
+  "display": "standalone",
+  "background_color": "#bfeaff",
+  "theme_color": "#bfeaff",
+  "icons": [
+    {
+      "src": "assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
